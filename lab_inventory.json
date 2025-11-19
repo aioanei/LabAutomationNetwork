@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Advanced Liquid Handler System",
+    "category": "Liquid Handler",
+    "attributes": {"throughput": "ultra-high"},
+    "doc_text": "Requires: [96-Channel Pipetting Head, Robotic Gantry System, Deck Control Unit]."
+  },
+  {
+    "name": "96-Channel Pipetting Head",
+    "category": "Pipetting Head",
+    "attributes": {"channels": 96},
+    "doc_text": "Requires: [Piston Pump Array, Tip Ejection Mechanism]."
+  },
+  {
+    "name": "Piston Pump Array",
+    "category": "Pump",
+    "attributes": {"precision": "0.1ul"},
+    "doc_text": "Requires: [Stepper Motor NEMA17, Piston Seal Kit]."
+  },
+  {
+    "name": "Piston Seal Kit",
+    "category": "Maintenance Part",
+    "attributes": {},
+    "doc_text": "Requires: [O-Ring Set, Silicone Lubricant]."
+  },
+  {
+    "name": "O-Ring Set",
+    "category": "Consumable Part",
+    "attributes": {"material": "viton"},
+    "doc_text": "Requires: [Rubber Vulcanization Process]."
+  },
+  {
+    "name": "Stepper Motor NEMA17",
+    "category": "Motor",
+    "attributes": {"voltage": "12V"},
+    "doc_text": "Requires: [Motor Driver A4988, 4-Wire Cable]."
+  },
+  {
+    "name": "Motor Driver A4988",
+    "category": "Electronics",
+    "attributes": {},
+    "doc_text": "Requires: [PCB Socket, Heat Sink]."
+  },
+  {
+    "name": "Tip Ejection Mechanism",
+    "category": "Mechanism",
+    "attributes": {},
+    "doc_text": "Requires: [Linear Actuator, Ejector Bar]."
+  },
+  {
+    "name": "Linear Actuator",
+    "category": "Actuator",
+    "attributes": {},
+    "doc_text": "Requires: [DC Motor 24V, Lead Screw]."
+  },
+  {
+    "name": "Robotic Gantry System",
+    "category": "Motion System",
+    "attributes": {"axis": "XYZ"},
+    "doc_text": "Requires: [X-Axis Rail, Y-Axis Rail, Z-Axis Column]."
+  },
+  {
+    "name": "X-Axis Rail",
+    "category": "Rail",
+    "attributes": {"length": "1000mm"},
+    "doc_text": "Requires: [Linear Bearing Block, Aluminum Extrusion]."
+  },
+  {
+    "name": "Linear Bearing Block",
+    "category": "Bearing",
+    "attributes": {},
+    "doc_text": "Requires: [Steel Ball Bearings, Grease Nipple]."
+  },
+  {
+    "name": "Deck Control Unit",
+    "category": "Controller",
+    "attributes": {},
+    "doc_text": "Requires: [Single Board Computer, Power Distribution Board]."
+  },
+  {
+    "name": "Single Board Computer",
+    "category": "Computer",
+    "attributes": {"ram": "8GB"},
+    "doc_text": "Requires: [MicroSD Card, 5V Power Supply]."
+  },
+  {
+    "name": "MicroSD Card",
+    "category": "Storage",
+    "attributes": {"capacity": "64GB"},
+    "doc_text": "Requires: [Flash Memory Controller]."
+  },
+  {
+    "name": "Fluorescence Microscope",
+    "category": "Microscope",
+    "attributes": {},
+    "doc_text": "Requires: [Epifluorescence Illuminator, Objective Lens Turret, XYZ Stage]."
+  },
+  {
+    "name": "Epifluorescence Illuminator",
+    "category": "Illuminator",
+    "attributes": {},
+    "doc_text": "Requires: [Mercury Arc Lamp, Excitation Filter Wheel]."
+  },
+  {
+    "name": "Mercury Arc Lamp",
+    "category": "Light Source",
+    "attributes": {"power": "100W"},
+    "doc_text": "Requires: [High Voltage Igniter, Lamp Housing]."
+  },
+  {
+    "name": "High Voltage Igniter",
+    "category": "Power Supply",
+    "attributes": {},
+    "doc_text": "Requires: [Capacitor Bank, Transformer]."
+  },
+  {
+    "name": "Excitation Filter Wheel",
+    "category": "Optics",
+    "attributes": {},
+    "doc_text": "Requires: [Stepper Motor NEMA14, Dichroic Mirror Set]."
+  },
+  {
+    "name": "Objective Lens Turret",
+    "category": "Optics Assembly",
+    "attributes": {},
+    "doc_text": "Requires: [Objective Lens 40x, Objective Lens 100x, Turret Ball Bearing]."
+  },
+  {
+    "name": "Objective Lens 100x",
+    "category": "Objective Lens",
+    "attributes": {"immersion": "oil"},
+    "doc_text": "Requires: [Immersion Oil Type A, Lens Cleaning Tissue]."
+  },
+  {
+    "name": "High Speed Centrifuge",
+    "category": "Centrifuge",
+    "attributes": {"rpm": 15000},
+    "doc_text": "Requires: [Titanium Rotor, Brushless DC Motor, Lid Safety Lock]."
+  },
+  {
+    "name": "Titanium Rotor",
+    "category": "Rotor",
+    "attributes": {"capacity": "24x1.5ml"},
+    "doc_text": "Requires: [Rotor Lid O-Ring, Spindle Nut]."
+  },
+  {
+    "name": "Brushless DC Motor",
+    "category": "Motor",
+    "attributes": {"power": "500W"},
+    "doc_text": "Requires: [Variable Frequency Drive, Hall Effect Sensor]."
+  },
+  {
+    "name": "Variable Frequency Drive",
+    "category": "Electronics",
+    "attributes": {},
+    "doc_text": "Requires: [IGBT Module, Control Logic Board]."
+  },
+  {
+    "name": "Lid Safety Lock",
+    "category": "Safety",
+    "attributes": {},
+    "doc_text": "Requires: [Solenoid Latch, Limit Switch]."
+  },
+  {
+    "name": "Solenoid Latch",
+    "category": "Actuator",
+    "attributes": {},
+    "doc_text": "Requires: [Return Spring, Copper Coil]."
+  },
+  {
+    "name": "DNA Sequencer",
+    "category": "Sequencer",
+    "attributes": {},
+    "doc_text": "Requires: [Flow Cell Interface, Laser Optics Module, Fluidics System]."
+  },
+  {
+    "name": "Fluidics System",
+    "category": "Fluidics",
+    "attributes": {},
+    "doc_text": "Requires: [Reagent Selector Valve, Peristaltic Pump, Waste Line]."
+  },
+  {
+    "name": "Reagent Selector Valve",
+    "category": "Valve",
+    "attributes": {"ports": 8},
+    "doc_text": "Requires: [Rotary Encoder, Valve Stator]."
+  },
+  {
+    "name": "Valve Stator",
+    "category": "Part",
+    "attributes": {"material": "ceramic"},
+    "doc_text": "Requires: [Polishing Pad]."
+  },
+  {
+    "name": "Laser Optics Module",
+    "category": "Optics",
+    "attributes": {},
+    "doc_text": "Requires: [Green Laser Diode, Red Laser Diode, Prism Assembly]."
+  },
+  {
+    "name": "Green Laser Diode",
+    "category": "Laser",
+    "attributes": {"wavelength": "532nm"},
+    "doc_text": "Requires: [Laser Driver Circuit, Peltier Cooler]."
+  },
+  {
+    "name": "Peltier Cooler",
+    "category": "Thermal",
+    "attributes": {},
+    "doc_text": "Requires: [Thermal Conductive Pad, Aluminum Heat Sink]."
+  },
+  {
+    "name": "Biological Safety Cabinet",
+    "category": "Safety",
+    "attributes": {"class": "II"},
+    "doc_text": "Requires: [HEPA Filter Downflow, HEPA Filter Exhaust, Blower Motor]."
+  },
+  {
+    "name": "HEPA Filter Downflow",
+    "category": "Filter",
+    "attributes": {"efficiency": "99.999%"},
+    "doc_text": "Requires: [Filter Gasket, Pleated Glass Fiber Media]."
+  },
+  {
+    "name": "Blower Motor",
+    "category": "Motor",
+    "attributes": {"type": "ECM"},
+    "doc_text": "Requires: [Motor Controller, Impeller Wheel]."
+  },
+  {
+    "name": "Impeller Wheel",
+    "category": "Fan",
+    "attributes": {},
+    "doc_text": "Requires: [Balancing Weight, Shaft Coupler]."
+  }
+]
